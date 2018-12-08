@@ -4,6 +4,7 @@ title:  "First test blog"
 date:   2018-12-09 00:16:00
 categories: test
 tags: test
+author: lbc
 ---
 
 ## 测试
