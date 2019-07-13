@@ -41,6 +41,8 @@ CSS
 
 **Markdown的格式排版显示，是由CSS决定的** 。在不同的Makedown客户端支持的CSS可能不同，最终显示会不同。比如：一、二级标题的下划线、显示背景；
 
+# excerpt
+excerpt_separator: "\n\n\n\n"
 
 ## Markdown 的功能
 
