@@ -7,8 +7,6 @@ tags: 原创
 author: 渐层鱼骨刺
 ---
 
-# Git Submodule
-
 ## 概述
 
 项目分为多个模块，每个模块有各自的`git`仓库。如何保证各个项目模块的独立，以及版本的统一（Tag标记）。git给出的解决方案是使用**子模块** 。
@@ -25,7 +23,7 @@ author: 渐层鱼骨刺
 
 将一个已存在的Git仓库添加为正在工作的仓库`A`的子模块，可以使用命令：`git submodule add <url> <path>`
 
-```conssole
+```
 $ git submodule add git@192.168.1.239:NewLauncher/gulf.git gulf
 Cloning into 'gulf'...
 remote: Counting objects: 11, done.
@@ -39,7 +37,7 @@ Checking connectivity... done.
 
 如果此时执行`git status`命令，会出现以下结果：
 
-```conssole
+```
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -55,7 +53,7 @@ Changes to be committed:
 
 `A`仓库的根目录生成`.gitmodule`文件，该配置文件保存了项目 URL 与已经拉取的本地目录之间的映射：
 
-```conssole
+```
 [submodule "gulf"]
    path = gulf
    url = git@192.168.1.239:NewLauncher/gulf.git

@@ -7,12 +7,7 @@ tags: 转载
 author: Other
 ---
 
-
-# Markdown使用介绍
-
 ***************
-
-    [TOC]
 
 # 1.Markdown的介绍
 
