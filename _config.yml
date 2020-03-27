@@ -8,7 +8,7 @@
 # Site settings
 title: 渐层鱼骨刺
 brief-intro: Android Coder
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://BingChaoLiu.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
@@ -28,8 +28,6 @@ description_footer: 渐层鱼骨刺！
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: #gaohaoyang
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
