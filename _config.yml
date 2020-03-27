@@ -8,7 +8,7 @@
 # Site settings
 title: 渐层鱼骨刺
 brief-intro: Android Coder
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://BingChaoLiu.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
